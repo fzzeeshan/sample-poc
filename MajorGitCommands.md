@@ -30,6 +30,12 @@ git commit -a -> Commits any files you’ve added with the git add command and a
 git rm [file] -> Deletes the file from your working directory and stages the deletion
 git rm -r [file-name.txt] -> Remove a file (or folder)
 
+git restore --staged [filename] -> Restoring files in the working tree
+
+git revert -> Making a new commit that reverts the changes made by other commits
+
+git reset -> Updating your branch, moving the tip in order to add or remove commits from the branch
+
 git log -> List the version history for the current branch
 git log --summary -> View changes (detailed)
 git log --oneline -> View changes (detailed)
